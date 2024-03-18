@@ -12,7 +12,7 @@ depends=('python')
 makedepends=('git' 'python-build' 'python-flit-core' 'python-installer')
 checkdepends=('python-pytest' 'python-sphinx')
 source=("git+$url.git#tag=$pkgver")
-b2sums=('SKIP')
+b2sums=('8b3a89617de019a78da1b57c5c9f73d7ada5a2ceaa6eb437e3ca1d38e2708aff3b11aafa9f88044340a8897672103c41fe8d5379a1b4f6fbea02479eedbb17fe')
 
 build() {
   cd "$_name"
